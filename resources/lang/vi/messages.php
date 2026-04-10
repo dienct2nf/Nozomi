@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'site'       => 'Nozomi',
+    'home'       => 'Trang chủ',
+    'welcome'       => 'Chào mừng tới với website của chúng tôi',
+    'copyright'       => '© All Rights Reserved - 2020',
+    'last_post'       => 'Bài viết gần đây',
+    'popular_post'       => 'Bài viết phổ biến',
+    'explore'       => 'Khám phá',
+    'contact'       => 'Liên Hệ',
+    'location'       => 'Vị trí',
+    'phone'       => 'Điện thoại',
+    'email'       => 'Email',
+    'working'       => 'Thời gian làm việc',
+    'more_info'       => 'Xem chi tiết',
+    'weekly_trend'       => 'Nổi bật trong tuần',
+    'out_team'       => 'Đội ngũ của chúng tôi',
+    'popular_video'       => 'Video phổ biến',
+    'blog'       => 'Blog',
+    'blog_page'       => 'Trang blog',
+    'category'       => 'Thể loại',
+    'tags'       => 'Từ khóa',
+    'gotop'       => 'Lên đầu',
+    'related_post'       => 'Bài viết liên quan',
+    'more_posts'       => 'Xem thêm bài viết',
+    'edit'       => 'Chỉnh sửa',
+];

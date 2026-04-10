@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'site'       => 'Nozomi',
+    'home'       => 'ホーム',
+    'welcome'       => 'Chào mừng tới với website của chúng tôi',
+    'copyright'       => '© All Rights Reserved - 2020',
+    'last_post'       => '最後の投稿',
+    'popular_post'       => '人気記事',
+    'explore'       => '探索',
+    'contact'       => '連絡',
+    'location'       => '所在地',
+    'phone'       => '電話番号',
+    'email'       => 'メール',
+    'working'       => '就業時間',
+    'more_info'       => 'もっと詳しく',
+    'weekly_trend'       => 'トレンド',
+    'out_team'       => '紹介',
+    'popular_video'       => '人気ビデオ',
+    'blog'       => 'ブログ',
+    'blog_page'       => 'ブログページ',
+    'category'       => 'カテゴリー',
+    'tags'       => 'タグ',
+    'gotop'       => 'トップに戻る',
+    'related_post'       => '関連記事',
+    'more_posts'       => 'その他',
+    'edit'       => '編集する',
+];

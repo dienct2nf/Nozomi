@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nozomijapan.vn/xuat-khau-lao-dong-nhat"
+  },
+  "headline": "Tất tần tật về xuất khẩu lao động Nhật Bản năm 2020",
+  "image": [
+    "https://nozomijapan.vn/photos/8/xuat-khau-lao-dong-nhat-ban.jpg",
+    "https://nozomijapan.vn/photos/8/xuat-khau-lao-dong-nozomijapan.jpeg"
+  ],  
+  "author": {
+    "@type": "Organization",
+    "name": "Công Ty Cổ Phần Thương Mại Quốc Tế NozomiJapan"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nozomi Japan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nozomijapan.vn/photos/1/logo/logo-4.png"
+    }
+  },
+"description": "Tìm hiểu tất tần tận quy trình, điều kiện, yêu cầu, chi phí, lương, bệnh tật, các thủ tục giấy tờ hồ sơ đi xuất khẩu lao động Nhật Bản 2020 người lao động cần biết.",
+"inLanguage": "vi",
+"datePublished": "2020-05-14",
+"dateModified": "2020-10-10"
+}

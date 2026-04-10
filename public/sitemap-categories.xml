@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/vendor/sitemap/styles/xml.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+	<url>
+	<loc>https://nozomijapan.vn/category</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-06-26T09:19:13+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/goc-chia-se</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-05-05T04:40:50+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/</image:loc>
+			<image:title>Góc chia sẻ</image:title>
+			<image:caption>Góc chia sẻ</image:caption>
+		</image:image>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/hoi-dap</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-04-23T13:13:00+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/category/thumbnails/2020/05/hoi-dap-164021973-640-480.jpeg</image:loc>
+			<image:title>Hỏi đáp</image:title>
+			<image:caption>Hỏi đáp</image:caption>
+		</image:image>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/tin-tuc</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-04-23T08:53:30+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/category/thumbnails/2020/05/tin-tuc-1231968544-640-480.jpeg</image:loc>
+			<image:title>Tin tức</image:title>
+			<image:caption>Tin tức</image:caption>
+		</image:image>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/cam-nang</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-04-20T14:46:57+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/category/thumbnails/2020/05/cam-nang-142986141-640-480.jpeg</image:loc>
+			<image:title>Cẩm nang</image:title>
+			<image:caption>Cẩm nang</image:caption>
+		</image:image>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/cam-nang-tieng-nhat</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-05-05T04:40:12+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/</image:loc>
+			<image:title>Cẩm nang Tiếng Nhật</image:title>
+			<image:caption>Cẩm nang Tiếng Nhật</image:caption>
+		</image:image>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/lop-tieng-nhat-n5</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-05-05T04:39:11+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/</image:loc>
+			<image:title>Lớp tiếng Nhật N5</image:title>
+			<image:caption>Lớp tiếng Nhật N5</image:caption>
+		</image:image>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/lop-tieng-nhat-n4</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-05-05T04:38:58+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/</image:loc>
+			<image:title>Lớp tiếng Nhật N4</image:title>
+			<image:caption>Lớp tiếng Nhật N4</image:caption>
+		</image:image>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/lop-tieng-nhat-n3</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-05-05T04:38:42+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/</image:loc>
+			<image:title>Lớp tiếng Nhật N3</image:title>
+			<image:caption>Lớp tiếng Nhật N3</image:caption>
+		</image:image>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/cam-nang-du-hoc-nhat-ban</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-05-05T04:38:09+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/</image:loc>
+			<image:title>Cẩm nang du học Nhật Bản</image:title>
+			<image:caption>Cẩm nang du học Nhật Bản</image:caption>
+		</image:image>
+	</url>
+	<url>
+	<loc>https://nozomijapan.vn/category/xuat-khau-lao-dong-nhat-ban</loc>
+		<priority>0.9</priority>
+		<lastmod>2020-04-23T16:14:02+07:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<image:image>
+			<image:loc>https://nozomijapan.vn/uploads/category/thumbnails/2020/04/xuat-khau-lao-dong-nhat-ban-1030442537-640-480.jpeg</image:loc>
+			<image:title>Xkld Nhật Bản</image:title>
+			<image:caption>Xkld Nhật Bản</image:caption>
+		</image:image>
+	</url>
+</urlset>
+
