@@ -52,7 +52,8 @@
                                                         <th>NGÀNH NGHỀ</th>
                                                         <th>SỐ LƯỢNG</th>
                                                         <th>NƠI LÀM VIỆC</th>
-                                                        <th>MỨC LƯƠNG</th>
+                                                        <th>MỨC LƯƠNG/THÁNG</th>
+                                                        <th>NGÀY THI TUYỂN</th>
                                                         <th>ĐĂNG KÝ</th>
                                                     </tr>
                                                     @foreach ($listProduct->paginate(12) as $item)
@@ -78,6 +79,11 @@
                                                             data-th="MỨC LƯƠNG">
                                                             <span
                                                                 class="salary--table">{{ product_price($item->price) }}</span>
+                                                        </td>
+                                                        <td
+                                                            data-th="NGÀY THI TUYỂN">
+                                                            <span
+                                                                class="slot--table">{{ date('d/m/Y', strtotime($item->date)) }}</span>
                                                         </td>
                                                         <td
                                                             data-th="NGÀY THI TUYỂN">

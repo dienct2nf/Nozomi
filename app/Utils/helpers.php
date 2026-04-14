@@ -72,7 +72,7 @@ if ( !function_exists('checkPermission')) {
 
 // format vnd
 if ( !function_exists('product_price')) {
-    function product_price($priceFloat,  $symbol = 'VNĐ') {
+    function product_price($priceFloat,  $symbol = 'JP¥') {
         $symbol_thousand = '.';
         $decimal_place = 0;
         $price = number_format($priceFloat, $decimal_place, '', $symbol_thousand);

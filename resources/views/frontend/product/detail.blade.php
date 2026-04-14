@@ -32,7 +32,7 @@
                                                             <ul>
                                                                 <li>Số lượng: {{ $product->slot }}</li>
                                                                 <li>Nơi làm việc: {{ $product->workplace }}</li>
-                                                                <li>Mức lương: <span class="salary">{{ product_price($product->price) }}</span></li>
+                                                                <li>Mức lương/tháng: <span class="salary">{{ product_price($product->price) }}</span></li>
                                                                 <li>Ngày tuyển: {{ date('d/m/Y', strtotime($product->date)) }}</li>
                                                             </ul>
                                                         </div>
@@ -68,7 +68,7 @@
                                                     </div>
                                                     <div class="meta-item">
                                                         <div class="content">
-                                                            <div class="lab">Mức lương</div>
+                                                            <div class="lab">Mức lương/tháng</div>
                                                             <div class="val">
                                                                 <div class="field__item salary">{{ product_price($product->price) }}</div>
                                                             </div>
@@ -189,7 +189,7 @@
 
                                                                                                     <div class="teacher">
                                                                                                         <div class="field">
-                                                                                                            <div class="field__item"><span class="title">Mức lương:</span> <span class="salary">{{ product_price($item->price) }}</span></div>
+                                                                                                            <div class="field__item"><span class="title">Mức lương/tháng:</span> <span class="salary">{{ product_price($item->price) }}</span></div>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <div class="teacher">
@@ -322,7 +322,7 @@
       "description": "{{ $product->description }}
       Số lượng: {{ $product->slot }}
       Nơi làm việc: {{ $product->workplace }}
-      Mức lương: {{ product_price($product->price) }}
+      Mức lương/tháng: {{ product_price($product->price) }}
       Ngày tuyển: {{ date('d/m/Y', strtotime($product->date)) }}",
       "brand": "Nozomi Japan",
       "sku": "tpyt",

@@ -81,7 +81,7 @@
                                                                                                     <th>NGÀNH NGHỀ</th>
                                                                                                     <th>SỐ LƯỢNG</th>
                                                                                                     <th>NƠI LÀM VIỆC</th>
-                                                                                                    <th>MỨC LƯƠNG</th>
+                                                                                                    <th>MỨC LƯƠNG/THÁNG</th>
                                                                                                     <th>ĐĂNG KÝ</th>
                                                                                                 </tr>
                                                                                                 @foreach ($topProduct as $item)
