@@ -52,6 +52,7 @@ Route::group(['namespace' => 'Frontend'], function () {
     Route::get('/thu-ngo/', 'HomeController@letter')->name('home.letter');
     Route::get('/tam-nhin-su-menh/', 'HomeController@vision')->name('home.vision');
     Route::get('/doi-ngu-can-bo-nhan-vien/', 'HomeController@staff')->name('home.staff');
+    Route::get('/ho-so-phap-ly/', 'HomeController@legal')->name('home.legal');
     Route::get('/tru-so-va-chi-nhanh/', 'HomeController@branch')->name('home.branch');
 
     // search

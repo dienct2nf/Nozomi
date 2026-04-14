@@ -148,7 +148,15 @@
             columns: [
                 {data: 'id', name: 'id', width: '30'},
                 {data: 'title', name: 'title'},
-                {data: 'author.name', name: 'author.name', width: '80'},
+                {
+                    data: 'author',
+                    name: 'author.name',
+                    width: '80',
+                    defaultContent: '',
+                    render: function (data) {
+                        return (data && data.name) ? data.name : '';
+                    }
+                },
                 {data: 'action', name: 'action', orderable: false, searchable: false},
             ]
         });

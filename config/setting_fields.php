@@ -620,6 +620,16 @@ return [
                 'class' => 'col-md-6', // any class for input
                 'value' => '' // default value if you want
             ],
+            
+            [
+                'type' => 'select_widget', // input fields type
+                'data' => 'string', // data type, string, int, boolean
+                'name' => 'widget_legal', // unique name for field
+                'label' => 'Hồ sơ pháp lý', // you know what label it is
+                'rules' => 'required', // validation rule of laravel
+                'class' => 'col-md-6', // any class for input
+                'value' => '' // default value if you want
+            ],
             [
                 'type' => 'select_widget', // input fields type
                 'data' => 'string', // data type, string, int, boolean

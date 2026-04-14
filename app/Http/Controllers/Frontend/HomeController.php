@@ -118,6 +118,11 @@ class HomeController extends Controller
         return view('frontend.contacts.staff');
     }
 
+    public function legal()
+    {
+        return view('frontend.contacts.legal');
+    }
+
     public function branch()
     {
         return view('frontend.contacts.branch');
