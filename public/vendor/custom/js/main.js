@@ -195,12 +195,13 @@ Loader.prototype = {
         })
     },
     appendCkeditor: function() {
-        var _token = $('meta[name="csrf-token"]').attr('content');
+        var _token = $('meta[name="csrf-token"]').attr('content') || $('input[name="_token"]').val() || '';
         var options = {
-            filebrowserImageBrowseUrl: '/filemanager?type=Images',
-            filebrowserImageUploadUrl: '/filemanager/upload?type=Images&responseType=json&_token='+_token,
-            filebrowserBrowseUrl: '/filemanager?type=Files',
-            filebrowserUploadUrl: '/filemanager/upload?type=Files&_token='+_token,
+            filebrowserImageBrowseUrl: '/media-manager?type=Images',
+            filebrowserImageUploadUrl: '/media-manager/upload?type=Images&responseType=json&_token='+_token,
+            filebrowserBrowseUrl: '/media-manager?type=Files',
+            filebrowserUploadUrl: '/media-manager/upload?type=Files&responseType=json&_token='+_token,
+            filebrowserUploadMethod: 'form',
             extraPlugins: 'wordcount, justify, showblocks, colorbutton, image2, font, uploadimage, iframe',
         };
         return options;
