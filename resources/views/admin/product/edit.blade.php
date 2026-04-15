@@ -187,6 +187,24 @@
                             @endif
                         </div>
                         <div class="form-group">
+                            {{ Form::label("date_show_home_page", 'Ngày đăng') }}
+                            {{ Form::text("date_show_home_page",
+                                        old("date_show_home_page") ? old("date_show_home_page") : (!empty($product->date_show_home_page) ? date('d-m-Y', strtotime($product->date_show_home_page)) : null),
+                                        [
+                                            "class" => 'form-control' . ( $errors->has('date_show_home_page') ? ' is-invalid' : '' ),
+                                            "placeholder" => 'Ngày đăng',
+                                            "data-inputmask-alias" => "datetime",
+                                            "data-inputmask-inputformat" => "dd/mm/yyyy",
+                                            "data-mask" => "",
+                                        ])
+                            }}
+                            @if($errors->has("date_show_home_page"))
+                                <div class="invalid-feedback">
+                                    {{ $errors->first("date_show_home_page") }}
+                                </div>
+                            @endif
+                        </div>
+                        <div class="form-group">
                             {{ Form::label('lfm', __('label.thumb'), ['class' => '']) }}
                             <div class="showthumb">
                                 <span id="delete-thumb" data-toggle="tooltip" title="Delete Thumbnail" class="showthumb--delete"><i class="fas fa-minus-circle"></i></span>

@@ -104,7 +104,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="gbb-row-wrapper">
+                    <hr/>
+
+                    <!-- <div class="gbb-row-wrapper">
                         <div class="gbb-row bg-size-cover">
                             <div class="bb-inner default" style="padding-top: 0px;">
                                 <div class="bb-container container">
@@ -120,7 +122,7 @@
                                 </section>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

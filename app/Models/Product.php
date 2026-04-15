@@ -11,7 +11,7 @@ class Product extends Model
     use Mediable;
     use Sluggable;
 
-    protected $fillable = ['name', 'description', 'slot', 'workplace', 'content', 'price', 'date', 'img', 'slug', 'status', 'user_id', 'top', 'top_time'];
+    protected $fillable = ['name', 'description', 'slot', 'workplace', 'content', 'price', 'date', 'date_show_home_page', 'img', 'slug', 'status', 'user_id', 'top', 'top_time'];
 
     /**
      * Return the sluggable configuration array for this model.
@@ -31,6 +31,12 @@ class Product extends Model
     public function setDateAttribute($input)
     {
         $this->attributes['date'] = Carbon::createFromFormat('d/m/Y', $input)->format('Y-m-d');
+    }
+
+    // set date_show_home_page
+    public function setDateShowHomePageAttribute($input)
+    {
+        $this->attributes['date_show_home_page'] = Carbon::createFromFormat('d/m/Y', $input)->format('Y-m-d');
     }
 
     // set price
