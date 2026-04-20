@@ -464,8 +464,6 @@
                                                     <li class=""><a href="javascript:void(0);"
                                                             data-panel="#tab-item-xwcij3">Tin tức</a></li>
                                                     <li class=""><a href="javascript:void(0);"
-                                                            data-panel="#tab-item-xwcij4">Cẩm nang</a></li>
-                                                    <li class=""><a href="javascript:void(0);"
                                                             data-panel="#tab-item-xwcij5">Nhật Bản</a></li>
                                                 </ul>
                                             </div>

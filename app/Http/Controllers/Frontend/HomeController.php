@@ -62,15 +62,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $listPostCamNang = $this->categoryRepository->whereCategorybySlug('cam-nang, goc-chia-se', 6); //slug
+        
         $listPostTinTuc = $this->categoryRepository->whereCategorybySlug('tin-tuc, hoi-dap', 6); //slug
         $listCategory = $this->categoryRepository->getAllOrderByLimit(4); //limit 4
         $listProduct = $this->productRepository->getLimitProductWithStatus('enable', 12);
-        $listProductLeft = $listProduct->take(6);
-        $listProductRight = $listProduct->skip(6)->take(6);
+        $listProductLeft = $listProduct->take(5);
+        $listProductRight = $listProduct->skip(5)->take(5);
         $album = $this->customerRepository->loadAlbumAll();
         $topProduct = $this->productRepository->getLimitTop();
-        return view('frontend.home', compact('listProductLeft', 'listProductRight', 'topProduct', 'listCategory', 'album', 'listPostCamNang', 'listPostTinTuc'));
+        return view('frontend.home', compact('listProductLeft', 'listProductRight', 'topProduct', 'listCategory', 'album', 'listPostTinTuc'));
     }
 
     /**
