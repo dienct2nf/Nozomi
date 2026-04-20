@@ -215,10 +215,7 @@
                                             <div class="contact-info"> <span class="description">{{ \setting('description') }}</span>
                                                 <ul class="contact-info">
                                                     <li><span><i class="fa fa-home"></i> {{ \setting('location_hanoi') }}</span></li>
-                                                    <li><span><i class="fa fa fa-map-marker"></i> {{ \setting('location_tphcm') }}</span></li>
-                                                    <li><span><i class="fa fa fa-map-marker"></i> {{ \setting('location_japan') }} </span></li>
                                                     <li><span><i class="fa fa-mobile-phone"></i> <a href="tel:{{ \setting('phone') }}">{{ \setting('phone') }}</a></span></li>
-                                                    <li><a href="mailto:{{ \setting('email') }}"><i class="fa fa-envelope-o"></i> {{ \setting('email') }}</a></li>
                                                     {{-- <li><span><i class="fa fa-skype"></i> {{ \setting('skype') }}</span> </li> --}}
                                                 </ul>
                                             </div>
