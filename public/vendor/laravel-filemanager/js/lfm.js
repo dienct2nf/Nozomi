@@ -4,7 +4,7 @@
     type = type || 'file';
 
     this.on('click', function(e) {
-      var route_prefix = (options && options.prefix) ? options.prefix : '/filemanager';
+      var route_prefix = (options && options.prefix) ? options.prefix : '/media-manager';
       localStorage.setItem('target_input', $(this).data('input'));
       localStorage.setItem('target_preview', $(this).data('preview'));
       window.open(route_prefix + '?type=' + type, 'FileManager', 'width=1024, height=600, top=0, left=1024');
