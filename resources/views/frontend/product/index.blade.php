@@ -56,7 +56,7 @@
                                                         <th>NGÀY THI TUYỂN</th>
                                                         <th>ĐĂNG KÝ</th>
                                                     </tr>
-                                                    @foreach ($listProduct->paginate(12) as $item)
+                                                    @foreach ($listProduct as $item)
                                                     <tr>
                                                         <td
                                                             data-th="NGÀNH NGHỀ">
@@ -98,6 +98,7 @@
                                                     @endforeach
                                                 </tbody>
                                             </table>
+                                            {{ $listProduct->links('vendor.pagination.page') }}
                                         </div>
                                     </div>
                                 </div>

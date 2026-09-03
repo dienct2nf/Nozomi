@@ -193,7 +193,7 @@ class HomeController extends Controller
      */
     public function productIndex()
     {
-        $listProduct = $this->productRepository->getLimitProductWithStatusAll('enable');
+        $listProduct = $this->productRepository->getLimitProductWithStatusAll('enable')->paginate(12);
         return view('frontend.product.index', compact('listProduct'));
     }
 
