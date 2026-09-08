@@ -112,7 +112,7 @@
                                 <div class="row">
                                     {{ Form::label('parent_id', __('label.status'), ['class' => '']) }}
                                     {{ Form::select('status',config('custom.status_product'),
-                                        'draft',
+                                        old('status', 'enable'),
                                         [
                                             "class" => "form-control",
                                             "id" => "status",
