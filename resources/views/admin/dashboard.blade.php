@@ -189,7 +189,7 @@
                 <li>
                     <img src="{{ !is_null($item->img)? '/uploads/'.$item->img : \setting('noimage') }}" alt="User Image" class="img-size-64">
                     <a class="users-list-name" href="#">{{ $item->name }}</a>
-                    <span class="users-list-date">{{ $item->job['name'] }}</span>
+                    <span class="users-list-date">{{ optional($item->job)->name }}</span>
                 </li>
                 @if($i==8)
                 @break
